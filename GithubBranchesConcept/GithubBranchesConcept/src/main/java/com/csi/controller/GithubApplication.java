@@ -14,4 +14,11 @@ public class GithubApplication {
     {
         return ResponseEntity.ok("VSPS Concept");
     }
+
+    @GetMapping()
+    public ResponseEntity<String> address()
+    {
+        //Changes By Prasad Gunjal
+        return ResponseEntity.ok("INSPIRIA MALL | PCMC | PUNE | MH |INDIA ");
+    }
 }
