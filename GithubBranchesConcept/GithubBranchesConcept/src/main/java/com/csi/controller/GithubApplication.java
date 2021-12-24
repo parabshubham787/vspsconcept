@@ -15,7 +15,7 @@ public class GithubApplication {
         return ResponseEntity.ok("VSPS Concept");
     }
 
-    @GetMapping()
+    @GetMapping("/address")
     public ResponseEntity<String> address()
     {
         //Changes By Prasad Gunjal
