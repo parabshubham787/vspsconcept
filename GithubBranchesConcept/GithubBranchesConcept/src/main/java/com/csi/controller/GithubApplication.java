@@ -21,4 +21,11 @@ public class GithubApplication {
         //Changes By Prasad Gunjal
         return ResponseEntity.ok("INSPIRIA MALL | PCMC | PUNE | MH |INDIA ");
     }
+
+    @GetMapping("/service")
+    public ResponseEntity<String> service()
+    {
+        //Changes By Prasad Gunjal
+        return ResponseEntity.ok("Application Software development ");
+    }
 }
